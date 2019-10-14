@@ -1,4 +1,4 @@
-POST https://h3tech.azurewebsites.net/api/contact HTTP/1.1
+POST YOUR_FUNCTION_URL_GOES_HERE HTTP/1.1
 content-type: application/json
 
 {
