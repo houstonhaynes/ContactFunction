@@ -6,7 +6,6 @@
   },
   "extensions": {
     "sendGrid": {
-      "from": "h3techsme@gmail.com"
     }
   }
 }
