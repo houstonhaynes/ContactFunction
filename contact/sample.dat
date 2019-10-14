@@ -1,3 +1,6 @@
+POST https://h3tech.azurewebsites.net/api/contact HTTP/1.1
+content-type: application/json
+
 {
     "name": "Test McTesterson",
     "email": "test@yodomain.com",

@@ -1,0 +1,19 @@
+  <div id="container" class="ld-over-full-inverse">
+    <div id="output"></div> 
+    <!-- output initially empty by design - waits for contact.js response from Azure Function -->
+        <form id="submitMessage" method="post" style="visibility:visible;"> 
+        <!-- form initially visible but to be hidden by contact.js after response is processed -->
+          <div class="form-group"> 
+            <input type="text" id="name" class="form-control" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" class="form-control" placeholder="Your email" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" class="form-control" placeholder="Type your message..." required></textarea>
+          </div>
+          <input class="button-primary" type="submit" value="Submit">&nbsp;&nbsp;&nbsp;&nbsp;
+          <img id="AzureFunctionHeartbeat" class="ld ld-heartbeat" src="/img/Function Apps.svg" height="50" width="50" style="vertical-align:middle;visibility:hidden;"/></img>
+          <!-- inline style set to hide at page load, then is shown by contact.js when submitMessage event is triggered, then hidden again after response is processed -->
+        </form>
+  </div>
