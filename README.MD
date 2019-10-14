@@ -13,6 +13,7 @@ One of the reasons I created a separate repo based on [Mike Pfeiffer's original 
 5. Deploy the **Contact** function in this repo to your Function App. You can do this easily with Visual Studio (VS) Code using the steps outlined in [Deploy to Azure using Azure Functions](https://code.visualstudio.com/tutorials/functions-extension/getting-started). Make sure you **update line 17** in the function.json file to include your desired destination email address before you deploy.
 6. The webdocs HTML and JS files are heavily commented for reference. If you look at my portfolio site repo you'll see that the HTML is dropped in-line into the contact.md file and the JS is included in the template path and added to the config.toml . You must first **update line 12** in the contact.js file with your function URL before you upload.
 7. The CSS animation uses the [loading.css library](https://github.com/loadingio/loading.css). 
+8. I'm in the process of implementing Skeleton CSS and found [Skeleton-alerts](https://github.com/nathancahill/skeleton-alerts) in the process. That's how the confirmation is marked up.
 8. The SVG comes from the [Microsoft Icon library](https://www.microsoft.com/en-us/download/details.aspx?id=41937). 
 
 ## App Info
