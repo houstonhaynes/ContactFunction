@@ -1,10 +1,8 @@
 # Azure Serverless Contact Form (SendGrid v3 API)
 
-> Simple serverless application that sends an email using Azure Functions and SendGrid v3 API.
+> A simple serverless application that sends an email to a single user by way of an Azure Function connecting to SendGrid v3 API.
 
 One of the reasons I created a separate repo based on [Mike Pfeiffer's original source](https://github.com/mikepfeiffer/azure-serverless-contact) was the changes both in the SendGrid API and some underpinnings in Azure Functions for loading the necessary extensions.
-
-I also removed the HTML page but may re-add my own (which is embedded in an R/markdown document using a Hugo shortcode) with tweaks to the ignore so that it can reside within the Azure Function project without janking anything.
 
 ## Deployment Steps
 
